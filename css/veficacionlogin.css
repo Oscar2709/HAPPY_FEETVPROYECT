@@ -1,0 +1,43 @@
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/azzara.min.css">
+</head>
+<body class="login">
+<form action=" "method="post" class="formulario">
+	<div class="wrapper wrapper-login">
+		<div class="container container-login animated fadeIn">
+		<h3 class="text-center">Iniciar Sesión</h3>
+			<div class="login-form">
+				<div class="form-group form-floating-label">	
+					<input id="nombreUsuario" name="nombreUsuario" type="text" class="form-control input-border-bottom" >
+					<label for="username" class="placeholder">Usuario</label>
+				</div>
+				<div class="form-group form-floating-label">	
+					<input id="claveUsuario" name="claveUsuario" type="password" class="form-control input-border-bottom" >
+					<label for="password" class="placeholder">Clave</label>
+					<div class="show-password">
+						<i class="flaticon-interface"></i>
+					</div>
+				</div>	
+				<div class="row form-sub m-0">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="rememberme">
+						<label class="custom-control-label" for="rememberme">Recordar Contraseña</label>
+					</div>
+					
+					<a href="#" class="link float-right">Olvido Password ?</a>
+				</div>
+					
+					
+				<div class="form-action mb-3">
+					<input type="submit" name="Ingresar" value="Ingresar" >
+					
+				</div>
+	</div>	
+		</div>
+				
+	</div>	
+	
+</form>
+</body>
+</html>
